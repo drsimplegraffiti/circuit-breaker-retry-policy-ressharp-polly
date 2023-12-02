@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOne.Api", "FormulaOne.Api\FormulaOne.Api.csproj", "{21FE41EC-18F9-4948-8649-28176674A6F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOne.Entities", "FormulaOne.Entities\FormulaOne.Entities.csproj", "{C6871730-9244-414C-BF40-2AB6297D9869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOne.DataService", "FormulaOne.DataService\FormulaOne.DataService.csproj", "{7EAC736A-B6B5-4648-AB14-8FA81B66301E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOne.AirlineService", "FormulaOne.AirlineService\FormulaOne.AirlineService.csproj", "{EDD8956D-69EB-4390-A777-0CBF5E8C0F71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21FE41EC-18F9-4948-8649-28176674A6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FE41EC-18F9-4948-8649-28176674A6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FE41EC-18F9-4948-8649-28176674A6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FE41EC-18F9-4948-8649-28176674A6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6871730-9244-414C-BF40-2AB6297D9869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6871730-9244-414C-BF40-2AB6297D9869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6871730-9244-414C-BF40-2AB6297D9869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6871730-9244-414C-BF40-2AB6297D9869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EAC736A-B6B5-4648-AB14-8FA81B66301E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EAC736A-B6B5-4648-AB14-8FA81B66301E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EAC736A-B6B5-4648-AB14-8FA81B66301E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EAC736A-B6B5-4648-AB14-8FA81B66301E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD8956D-69EB-4390-A777-0CBF5E8C0F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD8956D-69EB-4390-A777-0CBF5E8C0F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD8956D-69EB-4390-A777-0CBF5E8C0F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD8956D-69EB-4390-A777-0CBF5E8C0F71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
