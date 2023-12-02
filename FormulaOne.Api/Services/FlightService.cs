@@ -95,7 +95,9 @@ public class FlightService : IFlightService
             {
                 PropertyNameCaseInsensitive = true
             };
-
+            
+            //this line is taking the JSON content from an HTTP response, and deserializing it into a list of FlightDto objects.
+            // deserializing here means converting the JSON content into a list of FlightDto objects.
             var flights = JsonSerializer.Deserialize<List<FlightDto>>(response!.Content!, options);
 
             return flights!;
